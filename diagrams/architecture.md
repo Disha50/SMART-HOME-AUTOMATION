@@ -2,8 +2,7 @@
 ```mermaid 
 graph LR
 User["👤 User"] -->|Voice Command| Alexa["🗣️ Amazon Alexa"]
-Alexa -->|Cloud Request|
-Sinric["☁️ Sinric Pro Cloud"]
+Alexa -->|Cloud Request|Sinric["☁️ Sinric Pro Cloud"]
 Sinric -->|Wi-Fi| ESP32["📡 ESP32 / NodeMCU"]
 ESP32 --> Relay["🔌 Relay Module"]
 Relay --> Light["💡 Light"]
